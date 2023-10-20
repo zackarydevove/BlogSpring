@@ -26,7 +26,7 @@ const LoginPage: React.FC = () => {
 				<button className='rounded-full bg-[#3e5fd9] text-white mt-7 p-4 font-bold'>SIGN IN</button>
 			</form>
 			<div className='flex justify-center items-center mt-5'>
-				<a href="#" className='text-lg text-[#3e5fd9] font-bold'>Don't have an account? Sign up</a>
+				<a href="/signup" className='text-lg text-[#3e5fd9] font-bold'>Don't have an account? Sign up</a>
 			</div>
 		</div>
 		<div className='absolute bottom-12 right-12 w-[500px] h-[500px] bg-home_img1 bg-no-repeat bg-center'/>
