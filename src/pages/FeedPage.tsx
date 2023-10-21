@@ -4,7 +4,6 @@ import SendPost from '../components/Feed/SendPost'
 import ActualFeed from '../components/Feed/ActualFeed'
 import RandomAdd from '../components/Feed/RandomAdd'
 import ProfileInfo from '../components/Feed/ProfileInfo'
-import Ads from '../components/Feed/Ads'
 
 const FeedPage: React.FC = () => {
 	return (
@@ -19,7 +18,6 @@ const FeedPage: React.FC = () => {
 					<ActualFeed />
 				</div>
 				<div className='flex flex-col gap-12 w-[450px] max-2xl:hidden'>
-					{/* <Ads /> */}
 					<RandomAdd />
 				</div>
 			</div>
