@@ -11,13 +11,15 @@ const FeedPage: React.FC = () => {
 		<div className='h-screen w-full flex flex-col bg-[#0d0b0d]'>
 			<Navbar />
 			<div className='flex justify-between h-full pt-8 px-24 gap-12'>
-				<ProfileInfo />
+				<div className='w-[450px] max-lg:hidden'>
+					<ProfileInfo />
+				</div>
 				<div className='flex flex-col gap-12 w-[700px]'>
 					<SendPost />
 					<ActualFeed />
 				</div>
-				<div className='flex flex-col gap-12'>
-					<Ads />
+				<div className='flex flex-col gap-12 w-[450px] max-2xl:hidden'>
+					{/* <Ads /> */}
 					<RandomAdd />
 				</div>
 			</div>

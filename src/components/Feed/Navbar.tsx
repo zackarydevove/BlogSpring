@@ -5,7 +5,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 
 const Navbar: React.FC = () => {
   return (
-		<div className='h-16 bg-[#191819] flex justify-between px-24 '>
+		<div className='bg-[#191819] flex justify-between px-24 py-2'>
 			<div className='flex items-center'>
 				<div className='h-3/4 w-[200px] bg-brand_name bg-no-repeat bg-contain'/>
 				<div className='flex justify-center items-center bg-[#2e2d2e] h-10 rounded-2xl px-4'>

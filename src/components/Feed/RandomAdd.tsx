@@ -3,9 +3,9 @@ import UserBar from './UserBar'
 
 const RandomAdd: React.FC = () => {
   return (
-	<div className='flex flex-col justify-between bg-[#191819] w-[450px] h-[200px] rounded-xl p-4'>
+	<div className='flex flex-col justify-between bg-[#191819] w-full rounded-xl p-5'>
 		<p className='text-[#cac9ca] ml-2 '>Recommendation</p>
-		<div className='flex flex-col gap-4 py-2'>
+		<div className='flex flex-col gap-4 py-2 mt-2'>
 			<UserBar />
 			<UserBar />
 		</div>
